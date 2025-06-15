@@ -2,7 +2,7 @@
 //
 // NOTE: These storage keys are not namespaced.  That means that it's shared for the current fully
 // qualified domain.  Namespacing could be added, but we'll cross that bridge when we need it.
-
+console.log("#000#000")
 function getLocalStorage(key) {
   try {
     if (global.localStorage) {
