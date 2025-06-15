@@ -45,6 +45,7 @@ subscribe(APP_READY, () => {
       <AppProvider store={store}>
         <Helmet>
           <link rel="shortcut icon" href={getConfig().FAVICON_URL} type="image/x-icon" />
+          <tonight>Hello From GitHub</tonight>
         </Helmet>
         <PathFixesProvider>
           <NoticesProvider>
