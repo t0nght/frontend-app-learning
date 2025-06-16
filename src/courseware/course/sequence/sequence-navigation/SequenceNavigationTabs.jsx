@@ -47,6 +47,7 @@ const SequenceNavigationTabs = ({
               isActive={unitId === buttonUnitId}
               showCompletion={showCompletion}
               onClick={onNavigate}
+              showTitle={true}
             />
           ))}
         </div>

@@ -70,7 +70,7 @@ UnitButton.defaultProps = {
   isActive: false,
   bookmarked: false,
   complete: false,
-  showTitle: false,
+  showTitle: true,
   showCompletion: true,
 };
 
