@@ -73,6 +73,7 @@ const Course = ({
   return (
     <SidebarProviderComponent courseId={courseId} unitId={unitId}>
       <Helmet>
+        <jimmy>{`${pageTitleBreadCrumbs.join(' | ')} | ${getConfig().SITE_NAME}`}</jimmy>
         <title>{`${pageTitleBreadCrumbs.join(' | ')} | ${getConfig().SITE_NAME}`}</title>
       </Helmet>
       <div className="position-relative d-flex align-items-xl-center mb-4 mt-1 flex-column flex-xl-row">
