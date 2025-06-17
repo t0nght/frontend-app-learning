@@ -22,3 +22,10 @@
     right: 0;
   }
 }
+
+.unit-title-overflow{
+  display: flex !important;     /* keep the tabs in a flex row */  
+  flex-wrap: wrap !important;   /* let them wrap onto a new line instead of forcing a scrollbar */
+  overflow-x: hidden !important;/* hide the horizontal scrollbar that was showing underneath   */
+  font-size: 90%;
+}

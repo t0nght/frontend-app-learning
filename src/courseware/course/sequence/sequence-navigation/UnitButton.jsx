@@ -40,7 +40,7 @@ const UnitButton = ({
       to={`/course/${courseId}/${sequenceId}/${unitId}`}
     >
       <UnitIcon type={contentType} />
-      {showTitle && <span className="unit-title">{title}</span>}
+      {showTitle && <span className="unit-title unit-title-overflow">{title}</span>}
       {showCompletion && complete ? <CompleteIcon size="sm" className="text-success ml-2" /> : null}
       {bookmarked ? (
         <BookmarkFilledIcon
